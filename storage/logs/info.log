@@ -1,0 +1,588 @@
+[2017-11-10 21:08:15] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+[null]
+[]
+[2017-11-10 21:08:18] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:16:14] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:16:29] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:16:43] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:16:49] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:17:02] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:17:02] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:17:57] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:18:08] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:18:08] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:19:10] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:19:12] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:19:12] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:19:31] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:19:31] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:21:37] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:22:22] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:22:43] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:22:43] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:23:18] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:23:26] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 21:25:00] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 21:25:12] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:02:12] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:02:15] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:02:17] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:02:29] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:02:35] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:03:47] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:03:57] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:03:57] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:04:40] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:04:40] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:05:02] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:05:02] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:05:28] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:05:40] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:05:40] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:06:15] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:06:26] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:06:26] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:06:34] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-10 22:06:34] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-10 22:06:39] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 13:04:13] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+[null]
+[]
+[2017-11-11 13:04:16] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 14:56:11] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 14:57:23] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 14:58:57] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:00:17] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:01:46] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:02:08] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:02:32] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:03:43] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:03:56] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:04:26] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:08:14] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:09:26] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:10:23] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:10:34] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:10:52] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:10:52] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:10:57] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:10:57] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:11:05] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:11:23] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:11:32] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:11:32] local.INFO: CheckCurrentUser middlware was used: posts.show.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:11:39] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:11:52] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:12:00] local.INFO: CheckCurrentUser middlware was used: posts.store.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:12:00] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:14:59] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:15:10] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:15:25] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:16:17] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:16:42] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:17:02] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:17:05] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:17:25] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:17:25] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:17:46] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:17:48] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:17:48] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:18:14] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:18:26] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:18:49] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:19:07] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:20:09] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:20:13] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:20:13] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:22:48] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:22:52] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:22:52] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:23:50] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:23:53] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:23:53] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:24:53] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:24:56] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:24:56] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:25:19] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:25:22] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:25:22] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:26:14] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:26:17] local.INFO: CheckCurrentUser middlware was used: posts.destroy.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-11-11 15:26:31] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:27:50] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:27:51] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:27:52] local.INFO: CheckCurrentUser middlware was used: posts.create.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-11 15:33:12] local.INFO: CheckCurrentUser middlware was used: posts.index.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-11-18 09:17:37] local.INFO: CheckCurrentUser middlware was used: profile.edit.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null,\"profile\":{\"id\":1,\"user_id\":1,\"theme_id\":1,\"location\":null,\"bio\":null,\"twitter_username\":null,\"github_username\":null,\"avatar\":null,\"avatar_status\":0,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\"}})"]
+[]
+[2017-12-06 18:14:32] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:15:23] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:15:49] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:15:53] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:16:43] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:16:58] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:17:26] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:17:57] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:19:01] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:19:14] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:27:07] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-06 18:29:18] local.INFO: CheckCurrentUser middlware was used: post.like.  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_date\":null})"]
+[]
+[2017-12-10 20:39:08] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:39:44] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:40:07] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:44:33] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:44:44] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:44:47] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:46:11] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:46:38] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:46:40] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:46:43] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:46:52] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:47:02] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 20:47:26] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:00:29] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:00:44] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:00:47] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:01:05] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:01:08] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:03:23] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:03:26] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:38:29] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:38:33] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]
+[2017-12-10 21:40:18] local.INFO: CheckCurrentUser middlware was used: .  
+Log Entry Details:
+["[object] (App\\Models\\User: {\"id\":1,\"name\":\"oliver63\",\"first_name\":\"Eula\",\"last_name\":\"D'Amore\",\"email\":\"admin@admin.com\",\"signup_ip_address\":null,\"signup_confirmation_ip_address\":\"163.31.237.63\",\"signup_sm_ip_address\":null,\"admin_ip_address\":\"72.172.14.114\",\"updated_ip_address\":null,\"deleted_ip_address\":null,\"created_at\":\"2017-11-10 20:42:44\",\"updated_at\":\"2017-11-10 20:42:44\",\"deleted_at\":null})"]
+[]

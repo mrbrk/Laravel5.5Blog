@@ -4,36 +4,38 @@
 <?php $__env->stopSection(); ?>
 
 <?php
-  $levelAmount = trans('usersmanagement.labelUserLevel');
+  $levelAmount = 'Level:';
+
   if ($user->level() >= 2) {
-      $levelAmount = trans('usersmanagement.labelUserLevels');
+      $levelAmount = 'Levels:';
+
   }
 ?>
 
 <?php $__env->startSection('content'); ?>
     <section class="content-header">
       <h1>
-        Show User Detail
+        Create New User
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="#">Users</li>
-        <li class="active">User</li>
+        <li class="active">Create</li>
       </ol>
     </section>
-    <br/> 
-
+    <br/>
+ 
       <div class="col-md-12">
 
-        <div class="panel <?php if($user->activated == 1): ?> panel-success <?php else: ?> panel-danger <?php endif; ?>">
+        <div class="panel panel-danger">
 
           <div class="panel-heading">
-            <a href="/users/" class="btn btn-primary btn-xs pull-right">
+            <a href="/users/deleted/" class="btn btn-primary btn-xs pull-right">
               <i class="fa fa-fw fa-mail-reply" aria-hidden="true"></i>
-              <span class="hidden-xs"><?php echo e(trans('usersmanagement.usersBackBtn')); ?></span>
+              <span class="hidden-xs"><?php echo e(trans('usersmanagement.usersBackDelBtn')); ?></span>
             </a>
-            <?php echo e(trans('usersmanagement.usersPanelTitle')); ?>
+            <?php echo e(trans('usersmanagement.usersDeletedPanelTitle')); ?>
 
           </div>
           <div class="panel-body">
@@ -41,7 +43,7 @@
             <div class="well">
               <div class="row">
                 <div class="col-sm-6">
-                  <img src="<?php if($user->profile && $user->profile->avatar_status == 1): ?> <?php echo e($user->profile->avatar); ?> <?php else: ?> <?php echo e(Gravatar::get($user->email)); ?> <?php endif; ?>" alt="<?php echo e($user->name); ?>" id="" class="img-circle center-block margin-bottom-2 margin-top-1 user-image">
+                  <img src="<?php if($user->profile->avatar_status == 1): ?> <?php echo e($user->profile->avatar); ?> <?php else: ?> <?php echo e(Gravatar::get($user->email)); ?> <?php endif; ?>" alt="<?php echo e($user->name); ?>" id="" class="img-circle center-block margin-bottom-2 margin-top-1 user-image">
                 </div>
 
                 <div class="col-sm-6">
@@ -62,19 +64,18 @@
                   <?php if($user->profile): ?>
                     <div class="text-center text-left-tablet margin-bottom-1">
 
-                      <a href="<?php echo e(url('/profile/'.$user->name)); ?>" class="btn btn-sm btn-info">
-                        <i class="fa fa-eye fa-fw" aria-hidden="true"></i> <span class="hidden-xs hidden-sm hidden-md"> <?php echo e(trans('usersmanagement.viewProfile')); ?></span>
-                      </a>
+                      <?php echo Form::model($user, array('action' => array('SoftDeletesController@update', $user->id), 'method' => 'PUT', 'class' => 'form-inline')); ?>
 
-                      <a href="/users/<?php echo e($user->id); ?>/edit" class="btn btn-sm btn-warning">
-                        <i class="fa fa-pencil fa-fw" aria-hidden="true"></i> <span class="hidden-xs hidden-sm hidden-md"> <?php echo e(trans('usersmanagement.editUser')); ?> </span>
-                      </a>
+                          <?php echo Form::button('<i class="fa fa-refresh fa-fw" aria-hidden="true"></i> Restore User', array('class' => 'btn btn-success btn-block btn-sm', 'type' => 'submit', 'data-toggle' => 'tooltip', 'title' => 'Restore User')); ?>
 
-                      <?php echo Form::open(array('url' => 'users/' . $user->id, 'class' => 'form-inline')); ?>
+                      <?php echo Form::close(); ?>
 
-                        <?php echo Form::hidden('_method', 'DELETE'); ?>
 
-                        <?php echo Form::button('<i class="fa fa-trash-o fa-fw" aria-hidden="true"></i> <span class="hidden-xs hidden-sm hidden-md">' . trans('usersmanagement.deleteUser') . '</span>' , array('class' => 'btn btn-danger btn-sm','type' => 'button', 'data-toggle' => 'modal', 'data-target' => '#confirmDelete', 'data-title' => 'Delete User', 'data-message' => 'Are you sure you want to delete this user?')); ?>
+                      <?php echo Form::model($user, array('action' => array('SoftDeletesController@destroy', $user->id), 'method' => 'DELETE', 'class' => 'form-inline', 'data-toggle' => 'tooltip', 'title' => 'Permanently Delete User')); ?>
+
+                          <?php echo Form::hidden('_method', 'DELETE'); ?>
+
+                          <?php echo Form::button('<i class="fa fa-user-times fa-fw" aria-hidden="true"></i> Delete User', array('class' => 'btn btn-danger btn-sm','type' => 'button', 'style' =>'width: 100%;' ,'data-toggle' => 'modal', 'data-target' => '#confirmDelete', 'data-title' => 'Permanently Delete User', 'data-message' => 'Are you sure you want to permanently delete this user?')); ?>
 
                       <?php echo Form::close(); ?>
 
@@ -88,6 +89,45 @@
 
             <div class="clearfix"></div>
             <div class="border-bottom"></div>
+
+            <?php if($user->deleted_at): ?>
+
+              <div class="col-sm-5 col-xs-6 text-larger text-warning">
+                <strong>
+                  <?php echo e(trans('usersmanagement.labelDeletedAt')); ?>
+
+                </strong>
+              </div>
+
+              <div class="col-sm-7 text-warning">
+                <?php echo e($user->deleted_at); ?>
+
+              </div>
+
+              <div class="clearfix"></div>
+              <div class="border-bottom"></div>
+
+            <?php endif; ?>
+
+            <?php if($user->deleted_ip_address): ?>
+
+              <div class="col-sm-5 col-xs-6 text-larger text-warning">
+                <strong>
+                  <?php echo e(trans('usersmanagement.labelIpDeleted')); ?>
+
+                </strong>
+              </div>
+
+              <div class="col-sm-7 text-warning">
+                <?php echo e($user->deleted_ip_address); ?>
+
+              </div>
+
+              <div class="clearfix"></div>
+              <div class="border-bottom"></div>
+
+            <?php endif; ?>
+
 
             <?php if($user->name): ?>
 
@@ -221,7 +261,7 @@
 
             <div class="col-sm-5 col-xs-6 text-larger">
               <strong>
-                <?php echo e(trans('usersmanagement.labelAccessLevel')); ?> <?php echo e($levelAmount); ?>:
+                Access <?php echo e(trans('usersmanagement.labelAccessLevel')); ?> <?php echo e($levelAmount); ?>:
               </strong>
             </div>
 
@@ -429,7 +469,7 @@
 
         </div>
       </div>
-
+ 
 
   <?php echo $__env->make('modals.modal-delete', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
@@ -438,6 +478,7 @@
 <?php $__env->startSection('footer_scripts'); ?>
 
   <?php echo $__env->make('scripts.delete-modal-script', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+  <?php echo $__env->make('scripts.tooltips', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 <?php $__env->stopSection(); ?>
 

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.dashboard')
 
 @section('template_title')
   Showing User {{ $user->name }}
@@ -14,9 +14,19 @@
 @endphp
 
 @section('content')
-
-  <div class="container">
-    <div class="row">
+    <section class="content-header">
+      <h1>
+        Create New User
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="#">Users</li>
+        <li class="active">Create</li>
+      </ol>
+    </section>
+    <br/>
+ 
       <div class="col-md-12">
 
         <div class="panel panel-danger">
@@ -416,8 +426,7 @@
 
         </div>
       </div>
-    </div>
-  </div>
+ 
 
   @include('modals.modal-delete')
 

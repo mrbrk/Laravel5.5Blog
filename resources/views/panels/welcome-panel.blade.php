@@ -1,3 +1,123 @@
+    <section class="content-header">
+      <h1>
+        Create New Post
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="active"><i class="fa fa-dashboard"></i> Home</a></li>
+
+      </ol>
+    </section>
+    <br/>
+<div class="row">
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-orange">
+            <div class="inner">
+              <h3>{!! $users->count() !!}</h3>
+
+              <p>Users</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-person"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>{!! $posts->count() !!}</h3>
+
+              <p>Posts</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-ios-paper-outline"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+
+          </div>
+        </div>          
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>{!! $categories->count() !!}</h3>
+
+              <p>Categories</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-ios-albums-outline"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-yellow">
+            <div class="inner">
+              <h3>{!! $tags->count() !!}</h3>
+
+              <p>Tags</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-pin"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-purple">
+            <div class="inner">
+              <h3>{!! $likes->count() !!}</h3>
+
+              <p>Likes</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-android-favorite"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-blue">
+            <div class="inner">
+              <h3>{!! $counter !!}</h3> 
+
+              <p>View of posts</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-eye"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-black">
+            <div class="inner">
+              <h3>{!! $counter !!}</h3> 
+
+              <p>View of posts</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-eye"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+
+          </div>
+        </div>        
+        <!-- ./col -->
+      </div>
 @php
 
     $levelAmount = 'level';
@@ -9,7 +129,7 @@
 
 @endphp
 
-
+<div class="row">
 <div class="panel panel-primary @role('admin', true) panel-info  @endrole">
     <div class="panel-heading">
 
@@ -120,4 +240,5 @@
         @endrole
 
     </div>
+</div>
 </div>

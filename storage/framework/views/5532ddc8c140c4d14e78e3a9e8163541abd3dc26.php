@@ -23,8 +23,17 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startSection('content'); ?>
-    <div class="container">
-        <div class="row">
+    <section class="content-header">
+      <h1>
+        Showing All Users
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Users</li>
+      </ol>
+    </section>
+    <br/>
             <div class="col-sm-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -138,8 +147,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
     <?php echo $__env->make('modals.modal-delete', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
@@ -154,4 +161,4 @@
     <?php echo $__env->make('scripts.save-modal-script', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('layouts.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('layouts.dashboard', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

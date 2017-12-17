@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.dashboard')
 
 @section('template_title')
   Showing User {{ $user->name }}
@@ -12,9 +12,19 @@
 @endphp
 
 @section('content')
+    <section class="content-header">
+      <h1>
+        Show User Detail
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="#">Users</li>
+        <li class="active">User</li>
+      </ol>
+    </section>
+    <br/> 
 
-  <div class="container">
-    <div class="row">
       <div class="col-md-12">
 
         <div class="panel @if ($user->activated == 1) panel-success @else panel-danger @endif">
@@ -383,8 +393,7 @@
 
         </div>
       </div>
-    </div>
-  </div>
+
 
   @include('modals.modal-delete')
 

@@ -31,8 +31,9 @@ class UsersManagementController extends Controller
     {
         $users = User::all();
         $roles = Role::all();
+        $user = Auth::user();
 
-        return View('usersmanagement.show-users', compact('users', 'roles'));
+        return View('usersmanagement.show-users', compact('user','users', 'roles'));
     }
 
     /**
@@ -43,9 +44,11 @@ class UsersManagementController extends Controller
     public function create()
     {
         $roles = Role::all();
+        $user = Auth::user();
 
         $data = [
             'roles' => $roles,
+            'user' => $user,
         ];
 
         return view('usersmanagement.create-user')->with($data);

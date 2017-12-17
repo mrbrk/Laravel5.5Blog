@@ -8,6 +8,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>@if (trim($__env->yieldContent('template_title')))@yield('template_title') | @endif {{ config('app.name', Lang::get('titles.app')) }}</title>  <!-- Tell the browser to be responsive to screen width -->
   <meta name="author" content="Burak Kalkuz">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="{{ asset('/js/tinymce/js/tinymce/tinymce.min.js') }}"></script>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -30,7 +31,38 @@
   <![endif]-->
 
   <!-- Google Font -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+          @yield('template_linked_fonts')
+
+        {{-- Styles --}}
+        <link href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/components/icon.min.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/components/comment.min.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/components/form.min.css" rel="stylesheet">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/components/button.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+        <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+
+        @yield('template_linked_css')
+
+        <style type="text/css">
+            @yield('template_fastload_css')
+
+            @if (Auth::User() && (Auth::User()->profile) && (Auth::User()->profile->avatar_status == 0))
+                .user-avatar-nav {
+                    background: url({{ Gravatar::get(Auth::user()->email) }}) 50% 50% no-repeat;
+                    background-size: auto 100%;
+                }
+            @endif
+
+        </style>
+              {{-- Scripts --}}
+        <script>
+            window.Laravel = {!! json_encode([
+                'csrfToken' => csrf_token(),
+            ]) !!};
+        </script>
+
+
+        @yield('head')
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -55,17 +87,17 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="@if ($user->profile && $user->profile->avatar_status == 1) {{ $user->profile->avatar }} @else {{ Gravatar::get($user->email) }} @endif" alt="{{ $user->name }}" class="user-image" >
-              <span class="hidden-xs">{!! $user->name !!}</span>
+              <img src="@if (Auth::user()->profile && Auth::user()->profile->avatar_status == 1) {{ Auth::user()->profile->avatar }} @else {{ Gravatar::get(Auth::user()->email) }} @endif" alt="{{ Auth::user()->name }}" class="user-image" >
+              <span class="hidden-xs">{!! Auth::user()->name !!}</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="@if ($user->profile && $user->profile->avatar_status == 1) {{ $user->profile->avatar }} @else {{ Gravatar::get($user->email) }} @endif" alt="{{ $user->name }}" class="img-circle" >
+                <img src="@if (Auth::user()->profile && Auth::user()->profile->avatar_status == 1) {{ Auth::user()->profile->avatar }} @else {{ Gravatar::get(Auth::user()->email) }} @endif" alt="{{ Auth::user()->name }}" class="img-circle" >
 
                 <p>
-                  {!! $user->first_name.' '.$user->last_name!!}
-                  <small>Joined {!! $user->created_at !!}</small>
+                  {!! Auth::User()->first_name.' '.Auth::User()->last_name!!}
+                  <small>Joined {!! Auth::User()->created_at !!}</small>
                 </p>
               </li>
               <!-- Menu Body 
@@ -105,10 +137,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="@if ($user->profile && $user->profile->avatar_status == 1) {{ $user->profile->avatar }} @else {{ Gravatar::get($user->email) }} @endif" alt="{{ $user->name }}"  class="img-circle">
+          <img src="@if (Auth::user()->profile && Auth::user()->profile->avatar_status == 1) {{ Auth::user()->profile->avatar }} @else {{ Gravatar::get(Auth::user()->email) }} @endif" alt="{{ Auth::user()->name }}" class="img-circle">
         </div>
         <div class="pull-left info">
-          <p>{!! $user->first_name.' '.$user->last_name!!}</p>
+          <p>{!! Auth::user()->first_name.' '.Auth::user()->last_name!!}</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
@@ -126,34 +158,55 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
+        <li><a href="{{ url('/home') }}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+        <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-user"></i> <span>Users</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><a href="{{ url('/users/create') }}"><span><i class="fa fa-plus-square"></i></span> Add User</a></li>
+            <li><a href="{{ url('/users') }}"><i class="fa fa-users"></i> Show Users</a></li>
           </ul>
         </li>
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
+            <i class="fa fa-file-text"></i> <span>Posts</span>
             <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            <li><a href="{{ url('/blog/posts/create') }}"><span><i class="fa fa-plus-square"></i></span> Add Post</a></li>
+            <li><a href="{{ url('/blog/posts/') }}"><i class="fa fa-files-o"></i> Show Posts</a></li>
           </ul>
         </li>
-
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-folder"></i> <span>Categories</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ url('/blog/categories/create') }}"><span><i class="fa fa-plus-square"></i></span> Add Category</a></li>
+            <li><a href="{{ url('/blog/categories/') }}"><i class="fa fa-folder-open"></i> Show Categories</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-tags"></i> <span>Tags</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="{{ url('/blog/tags/create') }}"><span><i class="fa fa-plus-square"></i></span> Add Tag</a></li>
+            <li><a href="{{ url('/blog/tags/') }}"><i class="fa fa-tags"></i> Show Tags</a></li>
+          </ul>
+        </li>
         
       </ul>
     </section>
@@ -163,159 +216,54 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Dashboard
-        <small>Control panel</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
-    </section>
+
 
     <!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->
-      <div class="row">
-        <div class="col-lg-2 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-orange">
-            <div class="inner">
-              <h3>{!! $users->count() !!}</h3>
-
-              <p>Users</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-
-          </div>
-        </div>
-        <div class="col-lg-2 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-              <h3>{!! $posts->count() !!}</h3>
-
-              <p>Posts</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-ios-paper-outline"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-
-          </div>
-        </div>          
-        <!-- ./col -->
-        <div class="col-lg-2 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>{!! $categories->count() !!}</h3>
-
-              <p>Categories</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-ios-albums-outline"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-2 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <h3>{!! $tags->count() !!}</h3>
-
-              <p>Tags</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pin"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-2 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-purple">
-            <div class="inner">
-              <h3>{!! $likes->count() !!}</h3>
-
-              <p>Likes</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-android-favorite"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-blue">
-            <div class="inner">
-              <h3>{!! $counter !!}</h3> 
-
-              <p>View of posts</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-eye"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-
-          </div>
-        </div>
-        <!-- ./col -->
-      </div>
+      
       <!-- /.row -->
       <!-- Main row -->
-      <div class="row">
-        <!-- 
+      
+
+
+        @yield('content')
 
 
 
-
-        content area
-
-
-
-
-         -->
-      </div>
+     
       <!-- /.row (main row) -->
 
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+
+  <div>
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.4.0
+      <b>Version</b> 1.0
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2017 <a href="https//github.com/mrbrk">Burak Kalkuz</a>.</strong> All rights
     reserved.
   </footer>
-
+</div>
 
 <!-- jQuery 3 -->
 <script src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="{{ asset('bower_components/jquery-ui/jquery-ui.min.js') }}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-<script>
-  $.widget.bridge('uibutton', $.ui.button);
-</script>
+
 <!-- Bootstrap 3.3.7 -->
-<script src="{{ asset('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <!-- Morris.js charts -->
 <script src="{{ asset('dist/js/adminlte.min.js') }}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ asset('dist/js/pages/dashboard.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{ asset('dist/js/demo.js') }}"></script>
+        <script src="{{ mix('/js/app.js') }}"></script>
+        {!! HTML::script('//maps.googleapis.com/maps/api/js?key='.env("GOOGLEMAPS_API_KEY").'&libraries=places&dummy=.js', array('type' => 'text/javascript')) !!}
+
+        @yield('footer_scripts')
+
 </body>
 </html>

@@ -25,8 +25,9 @@ class PostController extends Controller
         
         $posts = Post::all();
         $users = User::orderBy('name','asc')->get();
+        $user = Auth::user();
 
-        return view('blog.post.posts',compact('posts','users'));
+        return view('blog.post.posts',compact('posts','users','user'));
     }
 
     /**
@@ -36,9 +37,22 @@ class PostController extends Controller
      */
     public function create()
     {
-        $tags = Tag::all();
+
+        $posts = Post::all();
         $categories = Category::all();
-        return view('blog.post.create',['categories'=>$categories,'tags'=>$tags]);
+        $tags = Tag::all();
+        $likes = Like::all();
+        $users = User::all();
+        $user = Auth::user();
+        $counter = 0;
+        foreach($posts as $post){
+            $counter += $post->view;
+        }
+
+        $tags = Tag::all();
+        $user = Auth::user();
+        $categories = Category::all();
+        return view('blog.post.create',compact('counter','posts','tags','likes','users','categories','user'));
     }
 
     /**

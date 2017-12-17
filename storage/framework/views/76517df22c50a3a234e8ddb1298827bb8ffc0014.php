@@ -53,9 +53,7 @@
             ]); ?>;
         </script>
 
-        <?php if(Auth::User() && (Auth::User()->profile) && $theme->link != null && $theme->link != 'null'): ?>
-            <link rel="stylesheet" type="text/css" href="<?php echo e($theme->link); ?>">
-        <?php endif; ?>
+
 
         <?php echo $__env->yieldContent('head'); ?>
 

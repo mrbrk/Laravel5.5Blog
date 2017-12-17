@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.dashboard')
 
 @section('template_title')
   Create New Post
@@ -19,9 +19,19 @@
     toolbar : "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
   }); 
 </script>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+    <section class="content-header">
+      <h1>
+        Create New Post
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Blog</a></li>
+        <li class="#">Post</li>
+        <li class="active">Create</li>
+      </ol>
+    </section>
+    <br/>
+      <div class="col-md-12">
         <div class="panel panel-default">
           <div class="panel-heading">
 
@@ -133,8 +143,7 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+
 
 @endsection
 

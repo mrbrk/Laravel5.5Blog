@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Category;
+use App\Models\User;
 use Auth;
 use Validator;
 
@@ -16,8 +17,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::paginate(10);
-        return view('blog.categories.categories',['categories'=>$categories]);
+        $categories = Category::all();
+        $user = Auth::user();
+        return view('blog.categories.categories',['categories'=>$categories,'user'=>$user]);
     }
 
     /**
@@ -27,8 +29,8 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        
-        return view('blog/categories/create');
+        $user = Auth::user();
+        return view('blog/categories/create',compact('user'));
     }
 
     /**
@@ -93,8 +95,9 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
+        $user = Auth::user();
         $category = Category::findOrFail($id);
-        return view('blog.categories.edit',compact('category'));
+        return view('blog.categories.edit',compact('category','user'));
     }
 
     /**

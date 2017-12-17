@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.dashboard')
 
 @section('template_title')
   Showing Users
@@ -25,8 +25,17 @@
 @endsection
 
 @section('content')
-    <div class="container">
-        <div class="row">
+    <section class="content-header">
+      <h1>
+        Showing All Users
+        <small>Control panel</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Users</li>
+      </ol>
+    </section>
+    <br/>
             <div class="col-sm-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -136,8 +145,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
     @include('modals.modal-delete')
 

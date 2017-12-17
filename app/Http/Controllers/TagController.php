@@ -42,10 +42,6 @@ class TagController extends Controller
     public function store(Request $request)
     {
 
-
-        $tags = explode(",", $request->name);
-        $slug = $request->slug;
-
         $validator = Validator::make($request->all(),
             [
                 'name'                  => 'required|max:55|unique:tags',
@@ -58,9 +54,10 @@ class TagController extends Controller
         }
 
         $tag = Tag::create([
-            'name'              => $tag,
-            'slug'              => $slug,
+            'name'              => $request->input('name'),
+            'slug'              => $request->input('slug'),
         ]);
+
 
         $tag->save();
 

@@ -15,6 +15,7 @@
 
 // Homepage Route
 Route::get('/', 'WelcomeController@welcome')->name('welcome');
+Route::get('/giris', 'WelcomeController@giris')->name('blog');
 
 // Authentication Routes
 Auth::routes();

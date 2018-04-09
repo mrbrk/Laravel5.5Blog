@@ -93,7 +93,7 @@
                                                 </a>
                                             </td>
                                             <td>
-                                                <a class="btn btn-sm btn-info btn-block" href="{{ URL::to('posts/' . $post->id . '/edit') }}" data-toggle="tooltip" title="Edit">
+                                                <a class="btn btn-sm btn-info btn-block" href="{{ URL::to('blog/posts/' . $post->id . '/edit') }}" data-toggle="tooltip" title="Edit">
                                                     <i class="fa fa-pencil fa-fw" aria-hidden="true"></i> <span class="hidden-xs hidden-sm">Edit</span><span class="hidden-xs hidden-sm hidden-md"> Post</span>
                                                 </a>
                                             </td>

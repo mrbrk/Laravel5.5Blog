@@ -100,7 +100,7 @@ class PostController extends Controller
 
         $path = public_path('images/' . $image_name);
 
-        Image::make($image)->resize(900, 300)->save( $path );
+        Image::make($image)->save( $path );
 
         // $image->move($destinationPath, $image->getClientOriginalName());
 
